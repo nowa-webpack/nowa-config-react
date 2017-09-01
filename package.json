@@ -1,0 +1,33 @@
+{
+  "name": "nowa-config-react",
+  "version": "2.0.0-alpha.0",
+  "description": "",
+  "main": "./index.js",
+  "author": {
+    "name": "Tommy Troy Lin",
+    "email": "tommytroylin@gmail.com",
+    "url": "https://github.com/tommytroylin"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack-bundle-analyzer": "^2.9.0"
+  },
+  "peerDependencies": {
+    "nowa-build": "next",
+    "nowa-server": "next"
+  }
+}
